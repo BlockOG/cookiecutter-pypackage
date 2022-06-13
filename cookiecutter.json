@@ -1,0 +1,8 @@
+{
+    "github_name": "BlockOG",
+    "email": "your_name@gmail.com",
+    "project_name": "Python Package",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "short_description": "A short description of your project.",
+    "version": "0.1.0"
+}
