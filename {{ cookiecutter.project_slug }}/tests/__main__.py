@@ -1,4 +1,4 @@
-import src.{{ cookiecutter.project_slug }} as {{ cookiecutter.project_slug }}, unittest
+import {{ cookiecutter.project_slug }}, unittest
 
 
 class TestEverything(unittest.TestCase):
