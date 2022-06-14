@@ -1,5 +1,7 @@
+{%- if cookiecutter.use_black_formatting == 'y' %}format:
+	python3 -m black .{% endif %}
 build:
-{%- if cookiecutter.use_black_formatting == 'y' %}	python3 -m black .{% endif %}
+{%- if cookiecutter.use_black_formatting == 'y' %}	make format{% endif %}
 	python3 tests
 	rm -rf dist/
 	python3 -m build
