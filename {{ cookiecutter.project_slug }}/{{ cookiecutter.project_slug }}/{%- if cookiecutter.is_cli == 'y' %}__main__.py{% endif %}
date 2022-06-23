@@ -1,3 +1,7 @@
 import {{ cookiecutter.project_slug }}
 
-{{ cookiecutter.project_slug }}.print_hello(input("What is your name? "))
+def main():
+    {{ cookiecutter.project_slug }}.print_hello(input("What is your name? "))
+
+if __name__ == "__main__":
+    main()
